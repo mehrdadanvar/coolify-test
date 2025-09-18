@@ -29,7 +29,7 @@
     RUN bun install --frozen-lockfile --production
     
     # Expose Nuxt port (Coolify will remap)
-    EXPOSE 3000
+    EXPOSE 5500
     
     # Run Nitro server with Bun
     CMD ["bun", ".output/server/index.mjs"]
